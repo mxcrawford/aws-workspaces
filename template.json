@@ -1,0 +1,19 @@
+{
+    "Type" : "AWS::WorkSpaces::Workspace",
+    "Properties" : {
+        "BundleId" : "#{BundleId}#",
+        "DirectoryId" : "#{DirectoryId}#",
+        "RootVolumeEncryptionEnabled" : false,
+        "Tags" : [],
+        "UserName" : "#{UserName}#",
+        "UserVolumeEncryptionEnabled" : false,
+        "VolumeEncryptionKey" : "",
+        "WorkspaceProperties" : {
+            "ComputeTypeName" : "PERFORMANCE",
+            "RootVolumeSizeGib" : 80,
+            "RunningMode" : "AUTO_STOP",
+            "RunningModeAutoStopTimeoutInMinutes" : 1,
+            "UserVolumeSizeGib" : 50
+          }
+      }
+  }
