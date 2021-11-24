@@ -1,22 +1,21 @@
 {
     "AWSTemplateFormatVersion": "2010-09-09",
-    "Description": null,
+    "Description": "",
     "Resources": {
         "WSW594YH": {
             "Type": "AWS::WorkSpaces::Workspace",
             "Properties": {
-                "BundleId": "#{BundleId}#",
-                "DirectoryId": "#{DirectoryId}#",
+                "BundleId": "wsb-9x4jch5v0",
+                "DirectoryId": "d-996713bc79",
                 "RootVolumeEncryptionEnabled": false,
                 "Tags": [],
-                "UserName": "#{UserName}#",
+                "UserName": "alistair.crawford",
                 "UserVolumeEncryptionEnabled": false,
-                "VolumeEncryptionKey": "",
                 "WorkspaceProperties": {
                     "ComputeTypeName": "PERFORMANCE",
                     "RootVolumeSizeGib": 80,
                     "RunningMode": "AUTO_STOP",
-                    "RunningModeAutoStopTimeoutInMinutes": 1,
+                    "RunningModeAutoStopTimeoutInMinutes": 60,
                     "UserVolumeSizeGib": 50
                 }
             }
