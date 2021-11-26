@@ -11,7 +11,6 @@
                 "Tags": [],
                 "UserName": "#UserName#",
                 "UserVolumeEncryptionEnabled": false,
-                "VolumeEncryptionKey": "",
                 "WorkspaceProperties": {
                     "ComputeTypeName": "PERFORMANCE",
                     "RootVolumeSizeGib": 80,
