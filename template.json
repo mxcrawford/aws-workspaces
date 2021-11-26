@@ -5,11 +5,11 @@
         "WSW594YH": {
             "Type": "AWS::WorkSpaces::Workspace",
             "Properties": {
-                "BundleId": "#{BundleId}#",
-                "DirectoryId": "#{DirectoryId}#",
+                "BundleId": "#BundleId#",
+                "DirectoryId": "#DirectoryId#",
                 "RootVolumeEncryptionEnabled": false,
                 "Tags": [],
-                "UserName": "#{UserName}#",
+                "UserName": "#UserName#",
                 "UserVolumeEncryptionEnabled": false,
                 "VolumeEncryptionKey": "",
                 "WorkspaceProperties": {
