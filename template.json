@@ -16,7 +16,7 @@
                     "ComputeTypeName": "PERFORMANCE",
                     "RootVolumeSizeGib": 80,
                     "RunningMode": "AUTO_STOP",
-                    "RunningModeAutoStopTimeoutInMinutes": 1,
+                    "RunningModeAutoStopTimeoutInMinutes": 60,
                     "UserVolumeSizeGib": 50
                 }
             }
