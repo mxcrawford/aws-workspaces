@@ -12,7 +12,7 @@
                 "UserName": "#UserName#",
                 "UserVolumeEncryptionEnabled": false,
                 "WorkspaceProperties": {
-                    "ComputeTypeName": "PERFORMANCE",
+                    "ComputeTypeName": "#ComputeType#",
                     "RootVolumeSizeGib": 80,
                     "RunningMode": "AUTO_STOP",
                     "RunningModeAutoStopTimeoutInMinutes": 60,
