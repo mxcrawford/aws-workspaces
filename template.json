@@ -13,10 +13,10 @@
                 "UserVolumeEncryptionEnabled": false,
                 "WorkspaceProperties": {
                     "ComputeTypeName": "#ComputeType#",
-                    "RootVolumeSizeGib": 80,
+                    "RootVolumeSizeGib": 175,
                     "RunningMode": "AUTO_STOP",
                     "RunningModeAutoStopTimeoutInMinutes": 60,
-                    "UserVolumeSizeGib": 50
+                    "UserVolumeSizeGib": 100
                 }
             }
         }
